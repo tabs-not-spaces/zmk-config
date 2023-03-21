@@ -45,7 +45,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "QWERTY";
+            label = "ALPHA";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
@@ -62,6 +62,8 @@
         };
 
         LWR {
+            label = "SYMBOL";
+
             bindings = <
 &kp LS(TAB)  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS          &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &trans
      &trans    &trans  &trans    &trans      &trans       &trans       &trans    &trans    &kp LEFT_BRACE       &kp RIGHT_BRACE              &kp MINUS  &kp EQUAL
@@ -71,6 +73,8 @@
         };
 
         RSE {
+            label = "NUMBER";
+
             bindings = <
 &kp HOME  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
  &kp END  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -80,6 +84,8 @@
         };
 
         FNC {
+            label = "FUNC";
+
             bindings = <
 &none  &kp F1   &kp F2   &kp F3   &kp F4  &none    &none  &none  &none  &none  &none  &none
 &none  &kp F5   &kp F6   &kp F7   &kp F8  &none    &none  &none  &none  &none  &none  &none
@@ -89,6 +95,8 @@
         };
 
         ARW {
+            label = "ARROW";
+
             bindings = <
 &none  &kp LC(LEFT)    &kp UP  &kp LC(RIGHT)  &none  &none    &none  &none  &none  &none  &none  &none
 &none      &kp LEFT  &kp DOWN      &kp RIGHT  &none  &none    &none  &none  &none  &none  &none  &none
@@ -98,6 +106,8 @@
         };
 
         EDIT {
+            label = "EDIT";
+            
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none  &none
      &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none
