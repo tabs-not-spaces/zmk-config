@@ -57,14 +57,14 @@
   &kp TAB  &kp Q  &kp W     &kp E  &kp R        &kp T          &kp Y  &kp U      &kp I    &kp O     &kp P         &back_del
 &kp LCTRL  &kp A  &kp S     &kp D  &kp F        &kp G          &kp H  &kp J      &kp K    &kp L  &kp SEMI  &kp SINGLE_QUOTE
 &kp LSHFT  &kp Z  &kp X     &kp C  &kp V        &kp B          &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH         &esc_exit
-                         &kp LGUI  &mo 1  &lt 4 SPACE    &lt 3 ENTER  &mo 2   &kp RALT
+                         &kp LALT  &mo 1  &lt 4 SPACE    &lt 3 ENTER  &mo 2   &kp RGUI
             >;
         };
 
         LWR {
             label = "SYMBOL";
             bindings = <
-&kp LS(TAB)  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS          &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &trans
+&kp LS(TAB)  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS          &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DEL
      &trans    &trans  &trans    &trans      &trans       &trans       &trans    &trans    &kp LEFT_BRACE       &kp RIGHT_BRACE              &kp MINUS  &kp EQUAL
      &trans    &trans  &trans    &trans      &trans       &trans       &trans    &trans  &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &kp BACKSLASH  &kp GRAVE
                                  &trans      &trans       &trans       &trans     &mo 5            &trans
